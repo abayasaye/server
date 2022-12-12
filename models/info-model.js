@@ -6,7 +6,5 @@ const infoSchema = new Schema({
     quantity:{type:Number},
     price:{type:Number},
     total:{type:Number,required:true}
-
-
 })
 module.exports = mongoose.model("info" , infoSchema)
