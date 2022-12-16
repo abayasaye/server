@@ -6,5 +6,4 @@ const storesSchema = new schema({
     storeName:{type:String,required:true},
     total:{type:Number,required:true}
 })
-
 module.exports = mongoose.model('store',storesSchema)
